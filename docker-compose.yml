@@ -8,5 +8,6 @@ services:
       RABBITMQ_DEFAULT_USER: 'admin'
       RABBITMQ_DEFAULT_PASS: 'admin'
     ports: 
-     - "8080:15672"  
+     - "8080:15672"
+     - "5672:5672"
       
